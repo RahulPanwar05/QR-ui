@@ -1,0 +1,56 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Recursive:wght@500&family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
+
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    background-color:hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+/* utils */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius:10px;
+    height: 80vh;
+    width: 25vw;
+    padding: 10px;
+    row-gap: 15px;
+}
+.qr-img{
+   height:60%;
+   width: 100%;
+   border-radius: 15px;
+}
+.qr-img img{
+    border-radius: 5px;
+}
+.content{
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+.content h5{
+    font-weight: 700;
+    text-align:center;
+    font-size: 15px;
+}
+.content p{
+    font-weight: 400;
+    text-align:center;
+    font-size:10px;
+    color: gray;
+}
